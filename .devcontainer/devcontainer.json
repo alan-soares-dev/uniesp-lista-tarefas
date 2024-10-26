@@ -1,0 +1,17 @@
+{
+	"name": "Node.js",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dsznajder.es7-react-js-snippets",
+				"esbenp.prettier-vscode"
+			],
+			"settings": {
+				"editor.guides.bracketPairs": true
+			}
+		}
+	}
+}
